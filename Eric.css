@@ -1,0 +1,140 @@
+body{background:linear-gradient(to left, #000000, #000000 50%, #333 75%, #333 75%);
+    color: #1292a3;
+    text-decoration: none;
+
+}
+
+.head{
+    display: flex;
+    background: linear-gradient(to left, #333, #333 50%, #1292a3 75%, #1292a3 75%);
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    gap:10px;
+    border-radius: 10px;
+    color: yellow;
+    font-variant: small-caps;
+    font-size: larger;
+    font-size: 35px;
+}
+
+.title-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.title{
+    display: flex;
+justify-content: space-evenly;
+background-color: #1292a300;
+text-align: center;
+width: 275px;
+height: 50px;
+color:yellow;
+font-size: larger;
+font-variant: small-caps;
+
+}
+
+.mosaique{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    margin-top: 0px;
+    filter: drop-shadow(10px 10px 4px #000000);
+}
+.mosaique :hover img {
+    -webkit-transform : scale(1.2);
+    transform : scale(1.2);
+    -webkit-transition : all 0.5s ease;
+        transition : all 0.5s ease; 
+}
+
+.mosa{
+display: flex;
+justify-content: space-evenly;
+background-color: #1292a3;
+text-align: center;
+width: 275px;
+height: 275px;
+border-style:groove;
+border-color: yellow;
+border-radius: 50%;
+}
+
+
+
+.liens{display: flex;
+    background: linear-gradient(to left, #333, #333 50%, #1292a3 75%, #1292a3 75%);
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap:10px;
+    border-radius: 10px;
+    color: yellow;
+    font-size: larger;
+    font-variant: small-caps;
+
+}
+
+.lien{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 255, 0);
+    width: 35px;
+    height: 35px;
+}
+
+@media (max-width: 768px) {
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .title-container{
+        color: #00000000;
+    }
+    .title{
+        color: #00000000;
+        
+
+    }
+    .mosaique{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin-left: 25%;
+        margin-top: -15%;
+        gap:5%;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .mosa{
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+        gap:5%;
+    } 
+    .head,.title-container{
+        width: 100%;
+    }
+    .liens{
+        width: 50%;
+        margin: 25%;
+        margin-bottom: 5%;
+        font-size: 50%;
+    }
+    .lien{
+        width: 10px;
+        height: 10px;
+    }
+    
+ }
