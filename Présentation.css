@@ -1,0 +1,184 @@
+body{background:linear-gradient(to left, #000000, #000000 50%, #333 75%, #333 75%);
+    color: #1292a3;
+    text-decoration: none;
+
+}
+
+.header-title{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color:#ffd000;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: larger;
+    border-radius: 5px;
+    
+}
+
+header {
+    background: linear-gradient(to left, #333, #333 50%, #1292a3 75%, #1292a3 75%);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap:10px;
+    justify-content: space-between; 
+}
+
+
+.header-button {
+    background-color: #000000;
+    color: #ffd000;
+    font-size: larger;
+    font-variant: small-caps;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    flex: 1; 
+    text-align: center; 
+}
+
+.header-button:hover {
+    background: linear-gradient(to left, #333, #333 50%, #1292a3 75%, #1292a3 75%);
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 128, 0, 0);
+    justify-content: space-around;
+    text-align: center;
+    color:#ffd000;
+    font-variant: small-caps;
+    margin-top: 50px;
+}
+
+
+.presentation{
+    background: linear-gradient(to left, #333, #333 50%, #1292a3 75%, #1292a3 75%);
+    width: 33%;
+    height: 400px;
+    margin: 10px;
+    border-style: double;
+    border-color: #ffd000;
+}
+.imgs{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 200px;
+    gap:10px;
+    margin-top: 50px;
+}
+
+.biographie{
+    background: linear-gradient(to left, #333, #333 50%, #1292a3 75%, #1292a3 75%);
+    width: 33%;
+    height: 400px;
+    margin: 10px;
+    border-style: double;
+    border-color: #ffd000;
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100px;
+    gap:10px;
+    margin-top: 50px;
+}
+
+.carriere{
+    background: linear-gradient(to left, #333, #333 50%, #1292a3 75%, #1292a3 75%);
+    width: 33%;
+    height: 400px;
+    margin: 10px;
+    border-style: double;
+    border-color: #ffd000;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100px;
+    gap:10px;
+    margin-top: 50px;
+}
+
+footer{
+    color:#ffd000;
+    font-variant: small-caps;
+}
+
+
+@media (max-width: 768px) {
+    body{
+        width: 90%;
+        height: 50%;
+    }
+    .header-container{
+        width: 100%;
+    }
+    .header-button{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+        height: auto;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    
+    .imgs{
+        width: 0px;
+        height: 0px;
+    }
+    .img{
+        flex-direction: row;
+    }
+    img{ 
+        width: 30%;
+        height: 40%;
+    }
+    .image{
+        flex-direction: row;
+    }
+    image{
+        width: 30%;
+        height: 40%;
+    }
+    .presentation,.carriere,.biographie{
+        height: auto;
+        width: 100%;
+    }
+    .header-title{
+        width: 100%;
+    }
+    .header-container{
+        width: 100%;
+    }
+    .header-button{
+        width: 50%;
+    }
+    .footer{
+        font-size: small;
+
+    }
+}    
+ 
