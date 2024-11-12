@@ -77,6 +77,7 @@ header {
     border-radius: 5px;
     border-color: #ffd000;
     border-style: double;
+    h{font-size: x-large;}
 }
 
 .cinema{
@@ -93,6 +94,7 @@ header {
     border-radius: 5px;
     border-color: #ffd000;
     border-style: double;
+    h{font-size:x-large;}
 }
 
 .doublage{
@@ -109,6 +111,7 @@ header {
     border-radius: 5px;
     border-color: #ffd000;
     border-style: double;
+    h{font-size: x-large;}
 }
 
 .realisation{
@@ -125,6 +128,7 @@ header {
     border-radius: 5px;
     border-color: #ffd000;
     border-style: double;
+    h{font-size: x-large;}
     
     
 }
