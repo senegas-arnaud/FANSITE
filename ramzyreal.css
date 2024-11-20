@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualité - Ramzy</title>
+    <link href="ramzyactualité.css"  rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Fansite</h1>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="Fansite.html"> Accueil</a></li>
+                <li><a href="ramzyactualité.html"> Actualité</a></li>
+                <li><a href="ramzyreal.html"> Réalisations</a></li>
+                <li><a href="#evenements"> Événements passés/à venir</a></li>
+                <li><a href="#photos"> Photos et vidéos</a></li>
+                <li><a href="#liens"> Liens vers d’autres sites de fans</a></li>
+                <li><a href="#reseaux"> Liens vers les réseaux sociaux</a></li>
+                <li><a href="#contact"> Formulaire de contact</a></li>
+            </ul>
+        </nav>
+    </header>
