@@ -60,7 +60,7 @@ header {
     margin-top: 5%;
 }
 
-.projet{
+.project{
     width: 30%;
     background: linear-gradient(to left, #333, #333 50%, #1292a3 75%, #1292a3 75%);
     border-style: double;
@@ -87,7 +87,7 @@ header {
     font-variant: small-caps;
 
 }
-.liens{display: flex;
+.links{display: flex;
     background: linear-gradient(to left, #333, #333 50%, #1292a3 75%, #1292a3 75%);
     padding: 10px 20px;
     align-items: center;
@@ -101,7 +101,7 @@ header {
 
 }
 
-.lien{
+.link{
     display: flex;
     justify-content: space-evenly;
     background-color: rgba(0, 0, 255, 0);
@@ -167,7 +167,7 @@ img{
         justify-content: space-evenly;
         justify-items: center;
     }
-    .projet,.interview,.evenement{
+    .project,.interview,.evenement{
         width: 50%;
         height: auto;
         margin-top: 5%;

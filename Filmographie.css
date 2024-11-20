@@ -97,7 +97,7 @@ header {
     h{font-size:x-large;}
 }
 
-.doublage{
+.dubbing{
     display: flex;
     flex-direction: column;
     background: linear-gradient(to left, #333, #333 50%, #1292a3 75%, #1292a3 75%);
@@ -206,7 +206,7 @@ header {
     margin-top: 5%;
     height: auto;}
 
-    .doublage{width: 50%;
+    .dubbing{width: 50%;
     margin-left: 25%;
     margin-top: 5%;
     height: auto;}

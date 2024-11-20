@@ -62,7 +62,7 @@ body{background:linear-gradient(to left, #000000, #000000 50%, #333 75%, #333 75
        
         }
 
-        .sous-titre{
+        .sub-title{
             display: flex;
             background-color: #00000000;
             width: 100%;

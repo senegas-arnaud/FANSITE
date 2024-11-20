@@ -83,7 +83,7 @@ header {
     margin-top: 50px;
 }
 
-.biographie{
+.biography{
     background: linear-gradient(to left, #333, #333 50%, #1292a3 75%, #1292a3 75%);
     width: 33%;
     height: 400px;
@@ -102,7 +102,7 @@ header {
     margin-top: 50px;
 }
 
-.carriere{
+.career{
     background: linear-gradient(to left, #333, #333 50%, #1292a3 75%, #1292a3 75%);
     width: 33%;
     height: 400px;
@@ -185,7 +185,7 @@ footer{
         width: 30%;
         height: 40%;
     }
-    .presentation,.carriere,.biographie{
+    .presentation,.career,.biography{
         height: auto;
         width: 100%;
     }
